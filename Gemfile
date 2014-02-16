@@ -5,8 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
-gem 'newrelic_rpm'
+gem 'newrelic_rpm', '3.5.5.38'
 
 gem 'rails_autolink'
 gem 'pg'
@@ -14,7 +13,6 @@ gem 'haml'
 gem 'simple_form'
 gem 'authlogic', '3.1.0'
 gem 'bcrypt-ruby', :require => 'bcrypt'
-gem 'acts_as_list', :git => 'git://github.com/swanandp/acts_as_list.git'
 gem 'awesome_print', :require => 'ap'
 gem 'rc_rails', :git => 'git://github.com/jlsync/resources_controller.git'
 gem 'dynamic_form'
